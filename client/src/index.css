@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  font-weight: 500;
+  /* Created with https://www.css-gradient.com */
+  background: #130433;
+  background: -webkit-linear-gradient(top left, #130433, #f3cb99);
+  background: -moz-linear-gradient(top left, #130433, #f3cb99);
+  background: linear-gradient(to bottom right, #130433, #f3cb99);
+}

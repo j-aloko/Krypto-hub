@@ -1,0 +1,33 @@
+.container {
+  width: 450px;
+  padding-bottom: 15px;
+  border-radius: 20px;
+  margin: 0.5rem auto;
+  background-color: rgb(62, 63, 63);
+}
+
+.wrapper {
+  display: flex;
+  margin: 1rem;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.right {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.description {
+  margin-top: 0.5rem;
+  font-weight: 500;
+}

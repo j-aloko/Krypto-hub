@@ -1,0 +1,35 @@
+.container {
+  margin: 0 auto;
+  max-width: 400px;
+  height: 200px;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* Created with https://www.css-gradient.com */
+  background: #053134;
+  background: -webkit-linear-gradient(top left, #053134, #d46261);
+  background: -moz-linear-gradient(top left, #053134, #d46261);
+  background: linear-gradient(to bottom right, #053134, #d46261);
+}
+
+.warningWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.circleEther {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+.addressWrapper {
+  position: absolute;
+  bottom: 10px;
+}

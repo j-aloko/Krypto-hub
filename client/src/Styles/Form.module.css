@@ -1,0 +1,31 @@
+.container {
+  margin: 3rem auto;
+  max-width: 500px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgb(62, 63, 63);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 400px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.button {
+  width: 300px;
+  padding: 5px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(24, 24, 26);
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}

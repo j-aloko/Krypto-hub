@@ -1,0 +1,59 @@
+.container {
+  background-color: rgb(62, 63, 63);
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
+.origin,
+.to,
+.amount {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.address,
+.toAddress,
+.amtOfEther {
+  margin-left: 5px;
+  color: white;
+}
+
+.message {
+  color: white;
+}
+
+.down {
+  display: flex;
+  flex-direction: column;
+}
+
+.gif {
+  height: 250px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: -1rem;
+}
+
+.timestamp {
+  width: 220px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(20, 20, 26);
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
